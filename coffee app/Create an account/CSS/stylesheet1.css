@@ -4,7 +4,7 @@
 * {box-sizing: border-box}
 
 body {
-	background-color:#7B94AD;
+	background-color:#FFFFFF;
 	margin-top: 55px;
 	padding: 10px;
 }
@@ -31,7 +31,7 @@ button {
 
 /* Add a hover effect for buttons */
 button:hover {
-	background-color: #f5b0af;
+	background-color: #112C5A;
 }
 
 
@@ -39,7 +39,7 @@ button:hover {
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
-  background-color: #4D667E;
+  background-color: #000000;
   border-radius: 10px;
 }
 
@@ -62,20 +62,20 @@ input[type=text], input[type=password] {
   margin: 0px 0 25px 0;
   display: inline-block;
   border: none;
-  background: #ABC4DF;
+  background: #D3D3D3;
 }
 
 input[type=text]:focus, input[type=password]:focus {
-  background-color: #DDE7F1;
+  background-color: #D3D3D3;
   outline: none;
 }
 
 input:checked + .slider {
-  background-color: #7B94AD;
+  background-color: #D3D3D3;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #7B94AD;
+  box-shadow: 0 0 1px #D3D3D3;
 }
 
 input:checked + .slider:before {
@@ -98,5 +98,11 @@ input:checked + .slider:before {
 p {
 	color: white;
 	font-family: lato; 
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 

@@ -13,67 +13,35 @@
 	  <!-- Change title -->
     <title>Home page</title>
   </head>
-	
-  <body>
+<body>
 
-<div class="container2">
-	<!--    hamburg menu    -->
+<ul class="navigation">
+	<li class="nav-item"><a href="home page.html">Home</a></li>
+	<li class="nav-item"><a href="learn page.html">Learn</a></li>
+	<li class="nav-item"><a href="Menu page.html">Menu</a></li>
+	<li class="nav-item"><a href="about us.html">About Us</a></li>
+	<li class="nav-item"><a href="Account page.html">Account</a></li>
+</ul>
 
-<nav role="navigation">
-  <div id="menuToggle">
-    <!--
-    A fake / hidden checkbox is used as click reciever,
-    so you can use the :checked selector on it.
-    -->
-    <input type="checkbox" />
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger"></label>
 
-    <!--
-    Some spans to act as a hamburger.
-    
-    They are acting like a real hamburger,
-    not that McDonalds stuff.
-    -->
-    <span></span>
-    <span></span>
-    <span></span>
+<div class="site-wrap">
 
-    <!--
-    Too bad the menu has to be inside of the button
-    but hey, it's pure CSS magic.
-    -->
-    <ul id="menu">
-      <a href="#">
-        <li>Home</li>
-      </a>
-      <a href="#">
-        <li>Learn</li>
-      </a>
-      <a href="#">
-        <li>Menu</li>
-      </a>
-      <a href="#">
-        <li>About Us</li>
-      </a>
-      <a href="#" target="_blank">
-        <li>Account</li>
-      </a>
-    </ul>
-  </div>
-</nav>
-</div>
-<!--
-  Please note: this code is in no way ready to be used as is in production on your website. It will need to be adapted to be cross browser compliant & accessible. I just wanted to share how one might go about this effect with CSS & JS and no other dependencies
--->
+
+<!---->
+<h1>Learn</h1>
+	  
 <div class="container">
   <div class="card-column column-0">
     <div class="card card-color-0">
-      <div class="border"></div>
-      <img src="learn page/Images/nordwood-themes-ivP3TYdLvw0-unsplash.jpg" />
+      <div class=""></div>
+		<img alt="" src="learn page/Images/nordwood-themes-ivP3TYdLvw0-unsplash.jpg"/>
       <h1>Everything you need to know about coffee beans.</h1>
     </div>
     <div class="card card-color-2">
-      <div class="border"></div>
-      <img src="learn page/Images/jordan-madrid-US6nYhwscfE-unsplash.jpg" />
+      <div class=""></div>
+      <img alt="" src="learn page/Images/jordan-madrid-US6nYhwscfE-unsplash.jpg"/>
       <h1>Everything you need to know about steaming milk.</h1>
     </div>
   </div>
@@ -86,7 +54,8 @@
   <div class="text" id="open-content-text">
   </div>
 </div>
-	  
+</div>  
+
     <!-- Do not change unless it does not work. In that case relink to your own downloaded files -->
 	  <script src="JS- connected to every page/jquery-3.4.1.slim.min.js"></script>
     <script src="JS- connected to every page/bootstrap.bundle.min.js"></script>
